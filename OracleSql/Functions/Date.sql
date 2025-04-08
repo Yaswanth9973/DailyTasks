@@ -1,0 +1,45 @@
+--sysdate
+SELECT
+    SYSDATE
+FROM
+    DUAL;
+--current_date
+SELECT
+    CURRENT_DATE
+FROM
+    DUAL;
+--sysytimestap
+SELECT
+    SYSTIMESTAMP
+FROM
+    DUAL;
+--add_months
+SELECT
+    ADD_MONTHS('04-Apr-2025', 8) MONTHS_ADDED_DATE
+FROM
+    DUAL;
+--months_between
+SELECT
+    MONTHS_BETWEEN('04-apr-2025', '06-mar-2000')
+FROM
+    DUAL;
+
+SELECT
+    MONTHS_BETWEEN('06-mar-2020', '04-apr-2025')
+FROM
+    DUAL;
+--NEXT_DAY
+SELECT
+    NEXT_DAY('08-APR-2025', 'SUN')
+FROM
+    DUAL;
+
+SELECT
+    NEXT_DAY('08-APR-2025', 'TUE')
+FROM
+    DUAL;
+--LAST_DAY
+SELECT
+    LAST_DAY('08-APR-2025')
+FROM
+    DUAL;
