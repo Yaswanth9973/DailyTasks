@@ -109,3 +109,5 @@ console.log(person);
 //delete in object
 delete person.age;
 console.log(person);
+
+
