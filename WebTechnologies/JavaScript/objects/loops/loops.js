@@ -12,10 +12,9 @@ for(s in student){
 
 
 
-
-
-
-
+//object.keys
+//object.values
+//object.entries
 
 let person={
     name:"yaswath",
